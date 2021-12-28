@@ -7,7 +7,7 @@ Junior frontend-developer(React)
 -----------
 Location: Vitebsk, Belarus
 
-[LinkedIn](hhttps://www.linkedin.com/in/yauhen-murachou-6a4842224/)
+[LinkedIn](https://www.linkedin.com/in/yauhen-murachou-6a4842224/)
 
 [GitHub](https://github.com/YauhenMurachou)
 --------------------------------------------
