@@ -78,7 +78,7 @@ IT-school TeachMeSkills - React Front End Developer (21.01.2021-25.10.2021)
 
 **Languages**
 -----------
-Belarusian - Native
-English - Intermediate
-Russian - Proficiency
-Ukrainian - Upper Intermediate
+* Belarusian - Native
+* English - Intermediate
+* Russian - Proficiency
+* Ukrainian - Upper Intermediate
