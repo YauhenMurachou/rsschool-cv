@@ -1,0 +1,233 @@
+.axit{
+	font-family: 'Open Sans', 'Verdana', 'Geneva', 'Tahoma', 'sans-serif';
+	width: 100%;
+	background: url("../img/bg/background-1\ 1.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	padding-bottom: 6.3125rem;
+	font-size: 0.875rem;
+}
+
+.axit::after {
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	background-color: rgba(0, 0, 0, 0.45);
+}
+
+.axit__wrapper{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.axit__leftrow{
+	max-width: 35.625rem;
+	padding-top: 6.8125rem;
+}
+
+.axit__logo{
+	width: 8.0625rem;
+	height: 4.375rem;
+	margin-bottom: 2rem;
+}
+
+.axit__title{
+	font-family: 'Raleway', 'Open Sans', 'Verdana', 'Geneva', 'Tahoma';
+	font-size: 2.25rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 2.625rem;
+	letter-spacing: 0;
+	text-align: left;
+	color: #FFFFFF;
+	text-transform: uppercase;
+}
+
+.axit__title:after {
+	content: '';
+	width: 4rem;
+	bottom: 0;
+	height: 2px;
+	background-color: #FFFFFF;
+	margin: 2rem auto 2.4375rem 0px;
+	display:block;
+}
+
+.axit__subtitle{
+	font-family: 'Raleway', 'Open Sans', 'Verdana', 'Geneva', 'Tahoma';
+	font-size: 1rem;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 1.1875rem;
+	letter-spacing: 0;
+	text-align: left;
+	color: #FFFFFF;
+	margin-bottom: 2.4375rem;
+}
+
+.axit__link{
+	margin: 0 auto 0 0;
+	text-align: center;
+	max-width: 8.4375rem;
+	border: 1px solid #FFFFFF;
+	cursor: pointer;
+	transition-duration: 0.3s;
+}
+
+.axit__link:hover{
+	background-color:#EC7979;
+	border: 1px solid #EC7979;
+	transition-duration: 0.5s;
+}
+
+
+.axit__download{
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 0.9375rem;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 2.5rem;
+	letter-spacing: 0;
+}
+
+.axit__rightrow{
+	max-width: 35.625rem;
+	padding-top: 6.8125rem;
+}
+
+.axit__form{
+	background-color: #FFFFFF;
+	max-width: 370px;	
+	border-radius: 8px;
+	/* width: 100%; */
+}
+
+.axit__trial{
+	font-family: 'Open Sans', 'Verdana', 'Geneva', 'Tahoma', 'sans-serif';
+	font-size: 1.25rem;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 56px;
+	letter-spacing: 0;
+	text-align: center;
+	margin-bottom: 44px;
+	padding-left: 59px;
+	padding-right: 59px;
+}
+
+.axit__free__red{
+	color: #EC7979;
+	text-transform: uppercase;
+}
+
+.axit__username{
+	margin-bottom: 19px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 19px;
+	color: #BDBDBD;
+	padding-left: 59px;
+	padding-right: 59px;
+}
+
+.axit__email{
+	margin-bottom: 19px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 19px;
+	color: #BDBDBD;
+	padding-left: 59px;
+	padding-right: 59px;
+}
+
+.axit__password{
+	margin-bottom: 62px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 19px;
+	color: #BDBDBD;
+	padding-left: 59px;
+	padding-right: 59px;
+}
+
+#username__axit, #email__axit, #password__axit{
+	width: 100%;
+	outline: none;
+	border: 0;
+	border-bottom: 1px solid #BDBDBD;
+	line-height: 19px;
+}
+
+.button__axit{
+	text-align: center;
+	background: #EC7979;
+	width: 100%;
+	cursor: pointer;
+	border-radius: 0 0 8px 8px;
+}
+
+.send__axit{
+	background: #EC7979;
+	color: #FFFFFF;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 0.9375rem;
+	line-height: 54px;
+	text-align: center;
+	cursor: pointer;	
+}
+
+@media (max-width: 946px){
+	.axit__wrapper{
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+	}
+	.axit__leftrow, .axit__title, .axit__subtitle{
+		text-align: center;
+	}
+	.axit__title:after{
+		margin: 32px auto 39px auto;
+	}
+	.axit__link{
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 576px){
+	.axit__link{		
+		max-width: 100%;
+	}
+	.axit__form{
+		max-width: 100%;		
+	}
+	.axit__username, .axit__email, .axit__password{
+		padding-left: 24px;
+		padding-right: 24px;
+	}
+	.axit__trial{
+		padding-left: 24px;
+		padding-right: 24px;
+		line-height:28px;
+		padding-top: 25px;
+	}
+	.axit__leftrow{
+		padding-top: 3.5rem;
+	}
+	.axit__rightrow{
+		padding-top: 3.5rem;	
+		width: 100%;
+	}
+	.axit{
+		padding-bottom: 3.15rem;
+	}
+}
+

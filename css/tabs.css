@@ -1,0 +1,138 @@
+.tabs{
+	font-family: 'Open Sans', 'Verdana', 'Geneva', 'Tahoma', 'sans-serif';
+	width: 100%;
+	font-size: 0.875rem;
+	padding-bottom: 6.25rem;
+	padding-top: 6.25rem;
+	background: #E5E5E5;
+}
+
+.tabs__wrapper{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.tabs__buttons{
+	max-width: 23.125rem;
+}
+
+.tabs__block{
+	background-color: #333;
+	color:#FFFFFF;
+	text-transform: uppercase;
+	font-size: 0.9375rem;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 1.25rem;
+	letter-spacing: 0em;
+	text-align: center;
+	padding: 2.8125rem 2.1875rem;
+	margin-top: 0.625rem;
+	border-radius: 4px;
+	transition-duration: 0.3s;	
+}
+
+.tabs__block:hover{
+	background-color: #EC7979;
+	transition-duration: 0.5s;
+}
+
+.tabs__text{
+	max-width: 35.625rem;
+}
+
+.tabs__title{
+	margin-bottom: 3.625rem;
+	text-transform: uppercase;
+	font-size: 1.25rem;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 1.6875rem;
+	letter-spacing: 0em;
+	text-align: left;
+}
+
+.tabs__subtitle{
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.1875rem;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #86878B;
+	text-transform: uppercase;
+	margin-bottom: 5.1875rem;
+}
+
+.tabs__link{
+	margin: 0 auto 0 0;
+	text-align: center;
+	max-width: 135px;
+	cursor: pointer;
+	background: #EC7979;
+	transition-duration: 0.3s;	
+}
+
+.tabs__link:hover{
+	transform:scale(1.15) ;
+   transition-duration: 0.5s;
+	box-shadow: 0 5px 28px rgba(0,0,0,0.25);
+}
+
+.tabs__download{
+	text-decoration: none;
+	font-size: 0.9375rem;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 40px;
+	letter-spacing: 0;
+	color: #FFFFFF;
+}
+
+.tabs__image{
+	max-width: 320px;
+}
+.tabs__buildings{
+	width: 230px;
+}
+@media (max-width: 992px){
+	.tabs{
+		padding-bottom: 4.25rem;
+		padding-top: 4.25rem;
+	}
+	.tabs__wrapper{
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+	.tabs__buttons{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		margin-bottom: 20px;
+		width: 100%;		
+	}
+
+	.tabs__link{
+		margin: 0 auto 20px auto;
+	}
+	.tabs__subtitle{
+		margin-bottom: 30px;
+		text-align: center;
+	}
+	.tabs__title{
+		text-align: center;
+		margin-bottom: 2.5rem;
+	}
+}
+
+@media (max-width: 576px){
+	.tabs__link{		
+		max-width: 100%;
+	}
+	.tabs{
+		padding-bottom: 3.15rem;
+		padding-top: 3.15rem;
+	}
+}

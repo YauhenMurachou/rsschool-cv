@@ -1,1 +1,1 @@
-https://YauhenMurachou.github.io/rsschool-cv/
+https://YauhenMurachou.github.io/rsschool-cv/cv

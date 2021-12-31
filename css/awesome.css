@@ -47,6 +47,12 @@
 	align-items: center;
 }
 
+.item-awesome__image {
+	color: #ec7979;
+	font-size: 1.875rem;
+	margin: 0px auto;
+}
+
 .item-awesome__title {
 	text-align: center;
 	text-transform: uppercase;

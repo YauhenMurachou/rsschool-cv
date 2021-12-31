@@ -1,0 +1,93 @@
+.footer{
+	font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 0.75rem;
+	background: #000000;
+}
+
+.footer__list{
+	padding-top: 30px;
+	padding-bottom: 18px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.footer__icons{
+	font-size: 1.4375rem;
+	margin-left: 30px;
+}
+
+.footer__icons:first-child{
+	margin-left: 0px;
+}
+
+.footer__link{
+	display: inline-block;
+	color: rgb(153, 149, 149);
+	transition-duration: 0.2s;			
+}
+
+.footer__link:hover{
+	transition-duration: 0.4s;
+	transition-timing-function: ease;
+	transform: scale(1.4);		
+}
+
+.footer__facebook:hover{
+	color:#4267B2;
+	transition-duration: 0.1s;
+	transition-timing-function: ease;
+}
+
+.footer__twitter:hover{
+	color:#1DA1F2;
+	transition-duration: 0.1s;
+	transition-timing-function: ease;
+}
+
+.footer__google:hover{
+	color:#FBBC05;
+	transition-duration: 0.1s;
+	transition-timing-function: ease;
+}
+
+.footer__pinterest:hover{
+	color:#E60023;
+	transition-duration: 0.1s;
+	transition-timing-function: ease;
+}
+
+.footer__instagram:hover{
+	color: #8a3ab9;
+	transition-duration: 0.1s;
+	transition-timing-function: ease;
+}
+
+.footer__StumbleUpon:hover{
+	color: #f74425;
+	transition-duration: 0.1s;
+	transition-timing-function: ease;
+}
+
+.footer__wifi:hover{
+	color: aqua;
+	transition-duration: 0.1s;
+	transition-timing-function: ease;
+}
+
+.copyright{
+	text-align: center;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 16px;
+	color: #FFFFFF;
+	padding-bottom: 16px;
+}
+
+@media (max-width: 370px){
+	.footer__icons{
+		font-size: 1.25rem;
+		margin-left: 25px;
+	}
+} 
