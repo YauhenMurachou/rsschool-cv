@@ -8,6 +8,7 @@
 		content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" href="./css/style.css" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+	<script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
 	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
 </head>
 
@@ -122,25 +123,32 @@
 
 		<section class="skills" id="skills">
 			<div class="container">
+				<h3 class="skills__title">My skills</h3>
+				<div class="skills__wrapper">
+					<ul class="skills__list">
+						<li class="skills__item"> <i class="fab fa-html5"></i> HTML5 / <i class="fab fa-css3-alt"></i> CSS3 /
+							<i class="fab fa-sass"></i> SASS</li>
+						<li class="skills__item"> <i class="fab fa-js"></i> JavaScript</li>
+						<li class="skills__item"> <i class="fab fa-react"></i> React / <span class="iconify"
+								data-icon="simple-icons:redux"></span>
+							Redux</li>
 
+					</ul>
+					<ul class="skills__list">
+						<li class="skills__item"> <i class="fas fa-code-branch"></i> Git / <i class="fab fa-github"></i>
+							GitHub</li>
+						<li class="skills__item"> <i class="fab fa-figma"></i> Figma</li>
+						<li class="skills__item"> <span class="iconify" data-icon="cib:postman"></span> Postman / <span
+								class="iconify" data-icon="cib:mongodb"></span> MongoDB Compass</li>
 
-				<h3 class="tabs__title">My skills</h3>
-				<ul>
-					<li>HTML5, CSS3</li>
-					<li>JavaScript</li>
-					<li>React</li>
-					<li>Redux</li>
-					<li>Git, GitHub</li>
-					<li>VS Code, PrePros</li>
-					<li>Figma</li>
-					<li>Postman, MongoDB Compass</li>
-				</ul>
+					</ul>
+				</div>
 			</div>
 		</section>
 
 		<section class="education" id="education">
 			<div class="container">
-				<h3 class="tabs__title">Education and languages</h3>
+				<h3 class="education__title">Education and languages</h3>
 				<ul>
 					<li>Academy of the Ministry of Internal Affairs of the Republic of Belarus - Forensic examination
 						(2010-2015)</li>
@@ -151,10 +159,10 @@
 
 		<section class="code" id="code">
 			<div class="container">
-				<h3 class="tabs__title">Code example</h3>
+				<h3 class="education__title">Code example</h3>
 
 				<p>
-					This is a code snippet from my social networking tutorial project, written with React. Class component
+					This is a code snippet from my skills networking tutorial project, written with React. Class component
 					"UserC" sends a Get request to the server and, using the map array method, displays a list of the
 					received users.
 				</p>
@@ -169,7 +177,7 @@
 	
 		componentDidMount() {
 			if (this.props.users.length === 0) {
-				axios.get('https://social-network.samuraijs.com/api/1.0/users')
+				axios.get('https://skills-network.samuraijs.com/api/1.0/users')
 					.then(response =&gt; {
 						this.props.setUsers(response.data.items)
 					})
@@ -207,7 +215,7 @@
 
 		<section class="projects" id="projects">
 			<div class="container">
-				<h3 class="tabs__title">My projects</h3>
+				<h3 class="education__title">My projects</h3>
 				<ul>
 					<li>Academy of the Ministry of Internal Affairs of the Republic of Belarus - Forensic examination
 						(2010-2015)</li>

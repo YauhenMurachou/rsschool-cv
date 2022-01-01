@@ -29,7 +29,7 @@ in addition, there are a huge number of free, high-quality self-education resour
 
 **Code example**
 ---------------
-This is a code snippet from my social networking tutorial project, written with React. Class component "UserC" sends a Get request to the server and, using the map array method, displays a list of the received users.
+This is a code snippet from my skills networking tutorial project, written with React. Class component "UserC" sends a Get request to the server and, using the map array method, displays a list of the received users.
 
 ```
 class UsersC extends React.Component {
@@ -39,7 +39,7 @@ class UsersC extends React.Component {
 
 	componentDidMount() {
 		if (this.props.users.length === 0) {
-			axios.get('https://social-network.samuraijs.com/api/1.0/users')
+			axios.get('https://skills-network.samuraijs.com/api/1.0/users')
 				.then(response => {
 					this.props.setUsers(response.data.items)
 				})
