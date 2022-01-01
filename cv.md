@@ -60,8 +60,9 @@ class UsersC extends React.Component {
 						<span> {user.country}</span>
 						<span> {user.status}</span>
 						<div>
-							{user.followed ? <button onClick={() => { this.props.unfollowUsers(user.id) }}>unfollow</button>
-								: <button onClick={() => { this.props.followUsers(user.id) }}>follow</button>}
+							{user.followed 
+							? <button onClick={() => { this.props.unfollowUsers(user.id) }}>unfollow</button>
+							: <button onClick={() => { this.props.followUsers(user.id) }}>follow</button>}
 						</div>
 					</div>
 				)
