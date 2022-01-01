@@ -54,8 +54,8 @@
 .header__link:hover{
 	transition-duration: 0.3s;
 	transition-timing-function: ease-in-out;
-	color: #EC7979;
-	border-bottom: 2px solid #EC7979;
+	color: #ff0000;
+	border-bottom: 2px solid #ff0000;
 }
 
 @media (max-width: 680px){
