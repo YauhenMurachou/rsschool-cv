@@ -1,59 +1,59 @@
-.awesome {
+.description {
 	width: 100%;
 	font-family: "Open Sans", "Verdana", "Geneva", "Tahoma", "sans-serif";
 }
 
-.awesome__header {
-	margin: 0px 0px 67px 0px;
+.description__header {
+	margin: 0 0 2rem 0;
 }
 
-.awesome__title {
+.description__title {
 	margin: 0px;
-	padding: 5rem 0 0 0;
+	padding: 2rem 0 0 0;
 }
 
-.awesome__title::after {
-	background-color: #ec7979;
-	margin: 34px auto;
+.description__title::after {
+	background-color: #ff0000;
+	margin: 1.5rem auto;
 }
 
-.awesome__subtitle {
+.description__subtitle {
 	max-width: 363px;
 	margin: 0px auto;
 	color: #86878b;
 }
 
-.awesome__row {
+.description__row {
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
 }
 
-.awesome__column {
+.description__column {
 	max-width: 348px;
-	margin-bottom: 109px;
+	margin-bottom: 4rem;
 	display: flex;
 	align-items: center;
 }
 
-.item-awesome__icon {
+.item-description__icon {
 	margin: 0px auto 30px auto;
 	border-radius: 50%;
 	width: 70px;
 	height: 70px;
-	border: 1px solid #ec7979;
+	border: 1px solid #ff0000;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
-.item-awesome__image {
-	color: #ec7979;
+.item-description__image {
+	color: #ff0000;
 	font-size: 1.875rem;
 	margin: 0px auto;
 }
 
-.item-awesome__title {
+.item-description__title {
 	text-align: center;
 	text-transform: uppercase;
 	margin: 0px 0px 16px 0px;
@@ -65,7 +65,7 @@
 	color: #333333;
 }
 
-.item-awesome__text {
+.item-description__text {
 	text-align: center;
 	font-size: 0.875rem;
 	font-style: normal;
@@ -77,13 +77,13 @@
 }
 
 @media (max-width: 946px) {
-	.awesome__title {
+	.description__title {
 		padding: 4rem 0 0 0;
 	}
 }
 
 @media (max-width: 576px) {
-	.awesome__title {
+	.description__title {
 		padding: 3.15rem 0 0 0;
 	}
 }
