@@ -197,56 +197,27 @@
 
 		<section class="code" id="code">
 			<div class="container">
-				<h3 class="education__title">Code example</h3>
+				<h3 class="code__title">Code example</h3>
 
-				<p>
-					This is a code snippet from my skills networking tutorial project, written with React. Class component
-					"UserC" sends a Get request to the server and, using the map array method, displays a list of the
-					received users.
+				<p class="code_subtitle">
+					This is a task &laquoCentury From Year&raquo from <a
+						href="https://www.codewars.com/kata/5a3fe3dde1ce0e8ed6000097">codewars.com</a>
 				</p>
 
-				<pre>
+				<pre class="code__block">
 <code>
-	class UsersC extends React.Component {
+	<span class="code__voilet">function</span> <span class="code__blue">century</span>(<span class="code__red">year</span>) {
 
-		constructor(props) {
-			super(props)
+		<span class="code__voilet">if</span> (Number.<span class="code__blue">isInteger</span>(+(<span class="code__red">year</span> / 100))) {
+			<span class="code__voilet">return</span> +(<span class="code__red">year</span> / 100)
+	
+		} <span class="code__voilet">else if</span> (+(<span class="code__red">year</span> / 100) &gt; +(<span class="code__red">year</span> / 100).<span class="code__blue">toFixed</span>()) {
+			<span class="code__voilet">return</span> +(<span class="code__red">year</span> / 100).<span class="code__blue">toFixed</span>() + 1
+	
+		} <span class="code__voilet">else if</span> (+(<span class="code__red">year</span> / 100) &lt; +(<span class="code__red">year</span> / 100).<span class="code__blue">toFixed</span>()) {
+			<span class="code__voilet">return</span> +(<span class="code__red">year</span> / 100).<span class="code__blue">toFixed</span>()
 		}
-	
-		componentDidMount() {
-			if (this.props.users.length === 0) {
-				axios.get('https://skills-network.samuraijs.com/api/1.0/users')
-					.then(response =&gt; {
-						this.props.setUsers(response.data.items)
-					})
-			}
-		}
-	
-		render() {
-			return &lt;&gt;	
-				{
-					this.props.users.map(user =&gt;
-	
-						&lt;div key={user.id} className={classes.item}&gt;
-							&lt;span&gt;{user.photos.small ? &lt;img src='user.photos' /&gt;
-								: &lt;img src={avatar} className={classes.avatar} /&gt;}&lt;/span&gt;
-	
-							&lt;span&gt; {user.name} &lt;/span&gt;
-							&lt;span&gt; id: {user.id} &lt;/span&gt;
-							&lt;span&gt; {user.city} &lt;/span&gt;
-							&lt;span&gt; {user.country}&lt;/span&gt;
-							&lt;span&gt; {user.status}&lt;/span&gt;
-							&lt;div&gt;
-								{user.followed 
-									? &lt;button onClick={() =&gt; { this.props.unfollowUsers(user.id) }}&gt;unfollow&lt;/button&gt;
-									: &lt;button onClick={() =&gt; { this.props.followUsers(user.id) }}&gt;follow&lt;/button&gt;}
-							&lt;/div&gt;	
-						&lt;/div&gt;
-					)
-				}
-			&lt;/&gt;
-		}	
-	};
+	}
 </code> </pre>
 			</div>
 		</section>
