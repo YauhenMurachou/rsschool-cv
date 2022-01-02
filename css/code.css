@@ -1,0 +1,45 @@
+.code {
+	font-family: "Open Sans", "Verdana", "Geneva", "Tahoma", "sans-serif";
+	width: 100%;
+	padding-bottom: 2rem;
+	padding-top: 2rem;
+}
+
+.code__title {
+	margin: 0 auto 1rem auto;
+	font-size: 2rem;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 27px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.code__title::after {
+	background-color: #ff0000;
+	margin: 1rem auto;
+}
+
+.code_subtitle{
+	text-align: center;
+}
+
+.code__block{
+	background: #e5e5e5;
+	max-width: max-content;
+	margin: 0 auto;
+	padding: 1rem;
+	font-size: 1rem;
+}
+
+.code__voilet{
+	color: rgb(157, 51, 206);
+}
+
+.code__red {
+	color: rgb(184, 24, 24);
+}
+
+.code__blue {
+	color: rgb(24, 167, 185);
+}
