@@ -1,5 +1,5 @@
 @import url("../css/description.css");
-@import url("../css/pricing.css");
+@import url("../css/projects.css");
 @import url("../css/customers.css");
 @import url("../css/code.css");
 @import url("../css/header.css");
@@ -17,6 +17,10 @@
 	border: 0;
 	box-sizing: border-box;
 	list-style: none;
+}
+
+html {
+	scroll-behavior: smooth;
 }
 
 .container {

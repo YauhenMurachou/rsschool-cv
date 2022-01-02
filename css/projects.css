@@ -1,0 +1,124 @@
+.projects {
+	background: #ffeded;
+	font-family: "Open Sans", "Verdana", "Geneva", "Tahoma", "sans-serif";
+	width: 100%;
+	padding-bottom: 2rem;
+	padding-top: 2rem;
+}
+
+.projects__title {
+	margin: 0 auto 1rem auto;
+	font-size: 2rem;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 27px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.projects__title::after {
+	background-color: #ff0000;
+	margin: 1rem auto;
+}
+
+.projects__link {
+	outline: none;
+	text-decoration: none;
+}
+
+.projects__subtitle {
+	max-width: 363px;
+	margin: 0px auto;
+	color: #86878b;
+}
+
+.projects__box {
+	padding-bottom: 80px;
+	display: flex;
+	justify-content: space-around;
+	margin: 0 -15px;
+	flex-wrap: wrap;
+}
+
+.projects__list {
+	text-align: center;
+	width: 340px;
+	background-color: #ffffff;
+	color: #86878b;
+	line-height: 40px;
+	margin: 0 15px;
+	transition-duration: 0.4s;
+}
+
+.projects__list:hover {
+	transform: translateY(-20px);
+	box-shadow: 0 20px 28px rgba(0, 0, 0, 0.25);
+	transition-duration: 0.6s;
+}
+
+.space {
+	border-bottom: 2px solid #e5e5e5;
+}
+
+.projects__name {
+	font-weight: 700;
+	font-size: 1.25rem;
+	line-height: 51px;
+	color: #fff;
+	background-color: #333333;
+	font-family: "Raleway", sans-serif;
+	border-bottom: 2px solid #e5e5e5;
+	transition-duration: 0.2s;
+}
+
+.projects__price {
+	font-weight: 700;
+	font-family: "Raleway", sans-serif;
+	font-size: 2.1875rem;
+	line-height: 100px;
+	color: #fff;
+	background-color: #333333;
+	border-bottom: 2px solid #e5e5e5;
+	transition-duration: 0.2s;
+}
+
+.projects__slogan {
+	font-weight: 600;
+	color: rgba(255, 255, 255, 0.5);
+	background-color: #333333;
+	line-height: 60px;
+	border-bottom: 2px solid #e5e5e5;
+	transition-duration: 0.2s;
+}
+
+.projects__name:hover,
+.projects__price:hover,
+.projects__slogan:hover,
+.space:hover {
+	background-color: #ec7979;
+	transition-duration: 0.5s;
+}
+
+@media (max-width: 1110px) {
+	.projects__list {
+		margin-bottom: 30px;
+	}
+}
+
+@media (max-width: 946px) {
+	.projects__title {
+		padding: 4rem 0 0 0;
+	}
+	.projects__box {
+		padding-bottom: 4rem;
+	}
+}
+
+@media (max-width: 576px) {
+	.projects__title {
+		padding: 3.15rem 0 0 0;
+	}
+	.projects__box {
+		padding-bottom: 3.15rem;
+	}
+}

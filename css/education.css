@@ -16,6 +16,11 @@
 	text-transform: uppercase;
 }
 
+.education__title::after {
+	background-color: #ff0000;
+	margin: 1rem auto;
+}
+
 .education__wrapper {
 	display: flex;
 	justify-content: space-between;

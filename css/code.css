@@ -15,6 +15,11 @@
 	text-transform: uppercase;
 }
 
+.code__title::after {
+	background-color: #ff0000;
+	margin: 1rem auto;
+}
+
 .code_subtitle{
 	text-align: center;
 }

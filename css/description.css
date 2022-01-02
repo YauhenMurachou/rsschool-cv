@@ -14,7 +14,7 @@
 
 .description__title::after {
 	background-color: #ff0000;
-	margin: 1.5rem auto;
+	margin: 1rem auto;
 }
 
 .description__subtitle {
