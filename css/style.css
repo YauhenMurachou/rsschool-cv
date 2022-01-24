@@ -23,6 +23,13 @@ html {
 	scroll-behavior: smooth;
 }
 
+html,
+body {
+	position: relative;
+	overflow-x: hidden;
+	overflow-y: visible;
+}
+
 .container {
 	max-width: 1170px;
 	margin: 0px auto;

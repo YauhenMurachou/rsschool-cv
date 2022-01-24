@@ -1,6 +1,8 @@
 .description {
 	width: 100%;
 	font-family: "Open Sans", "Verdana", "Geneva", "Tahoma", "sans-serif";
+	z-index: 0;
+	position: relative;
 }
 
 .description__header {
