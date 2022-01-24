@@ -119,6 +119,12 @@
 	}
 }
 
+@media (max-width: 756px) {
+	.about__contact {
+		margin: 0 auto 20px auto;
+	}
+}
+
 @media (max-width: 576px) {
 	.about__link {
 		max-width: 100%;

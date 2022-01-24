@@ -203,18 +203,22 @@
 
 				<pre class="code__block">
 <code>
-	<span class="code__voilet">function</span> <span class="code__blue">century</span>(<span class="code__red">year</span>) {
+<span class="code__voilet">function</span> <span class="code__blue">century</span>(<span class="code__red">year</span>) {
 
-		<span class="code__voilet">if</span> (Number.<span class="code__blue">isInteger</span>(+(<span class="code__red">year</span> / 100))) {
-			<span class="code__voilet">return</span> +(<span class="code__red">year</span> / 100)
+<span class="code__voilet">if</span> (Number.<span class="code__blue">isInteger</span>(+(<span class="code__red">year</span> / 100))) {
+<span class="code__voilet">return</span> +(<span class="code__red">year</span> / 100)
 	
-		} <span class="code__voilet">else if</span> (+(<span class="code__red">year</span> / 100) &gt; +(<span class="code__red">year</span> / 100).<span class="code__blue">toFixed</span>()) {
-			<span class="code__voilet">return</span> +(<span class="code__red">year</span> / 100).<span class="code__blue">toFixed</span>() + 1
+} <span class="code__voilet">else if</span> (+(<span class="code__red">year</span> / 100) &gt; +(<span class="code__red">year</span> / 100)
+.<span class="code__blue">toFixed</span>()) {
+<span class="code__voilet">return</span> +(<span class="code__red">year</span> / 100)
+.<span class="code__blue">toFixed</span>() + 1
 	
-		} <span class="code__voilet">else if</span> (+(<span class="code__red">year</span> / 100) &lt; +(<span class="code__red">year</span> / 100).<span class="code__blue">toFixed</span>()) {
-			<span class="code__voilet">return</span> +(<span class="code__red">year</span> / 100).<span class="code__blue">toFixed</span>()
-		}
-	}
+} <span class="code__voilet">else if</span> (+(<span class="code__red">year</span> / 100) &lt; +(<span class="code__red">year</span> / 100)
+.<span class="code__blue">toFixed</span>()) {
+<span class="code__voilet">return</span> +(<span class="code__red">year</span> / 100)
+.<span class="code__blue">toFixed</span>()
+}
+}
 </code> </pre>
 			</div>
 		</section>
@@ -246,9 +250,8 @@
 
 				</ul>
 				<p class="copyright">&copy; 2021 Yauhen Murachou <a href="https://rs.school/" target="_blank">
-					<img class="footer__logo" src="./img/rs_school_js.svg"
-							alt="RSSchool logo">
-				</a></p>
+						<img class="footer__logo" src="./img/rs_school_js.svg" alt="RSSchool logo">
+					</a></p>
 			</div>
 		</div>
 	</footer>
