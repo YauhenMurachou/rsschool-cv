@@ -18,10 +18,44 @@
 
 .projects__title::after {
 	background-color: #ff0000;
-	margin: 1rem auto;
+	margin: 1rem auto 2rem auto;
+}
+
+.projects__list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	row-gap: 25px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.projects__item {
+	max-width: 45%;
+}
+
+.projects__image {
+	width: 100%;
+	height: max-content;
+	object-fit: contain;
+	box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.1);
+}
+
+.projects__item:hover .projects__image {
+	box-shadow: 0px 0px 7px 7px rgba(0, 0, 0, 0.3);
 }
 
 .projects__link {
 	outline: none;
 	text-decoration: none;
+	display: block;
+	text-align: center;
+	color: black;
+	font-size: 1.2rem;
+}
+
+@media (max-width: 500px) {
+	.projects__item {
+		max-width: 90%;
+	}
 }

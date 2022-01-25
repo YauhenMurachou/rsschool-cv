@@ -20,11 +20,11 @@
 	margin: 1rem auto;
 }
 
-.code_subtitle{
+.code_subtitle {
 	text-align: center;
 }
 
-.code__block{
+.code__block {
 	background: #e5e5e5;
 	max-width: max-content;
 	margin: 0 auto;
@@ -32,7 +32,11 @@
 	font-size: 1rem;
 }
 
-.code__voilet{
+.code__block code {
+	text-align: left;
+}
+
+.code__voilet {
 	color: rgb(157, 51, 206);
 }
 

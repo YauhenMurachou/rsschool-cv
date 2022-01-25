@@ -25,6 +25,19 @@
 						<li class="header__item"><a class="header__link" href="#footer">My contacts</a></li>
 					</ul>
 				</nav>
+				<div class="hamburger">
+					<span class="line"></span>
+					<span class="line"></span>
+					<span class="line"></span>
+				</div>
+				<ul class="header__list-adaptive">
+					<li class="header__item-adaptive"><a class="header__link-adaptive" href="#description">About Me</a> </li>
+					<li class="header__item-adaptive"><a class="header__link-adaptive" href="#skills">Skills</a></li>
+					<li class="header__item-adaptive"><a class="header__link-adaptive" href="#education">Education</a></li>
+					<li class="header__item-adaptive"><a class="header__link-adaptive" href="#code">Code example</a></li>
+					<li class="header__item-adaptive"><a class="header__link-adaptive" href="#projects">Projects</a></li>
+					<li class="header__item-adaptive"><a class="header__link-adaptive" href="#footer">Contacts</a></li>
+				</ul>
 			</div>
 		</div>
 	</header>
@@ -203,18 +216,22 @@
 
 				<pre class="code__block">
 <code>
-	<span class="code__voilet">function</span> <span class="code__blue">century</span>(<span class="code__red">year</span>) {
+<span class="code__voilet">function</span> <span class="code__blue">century</span>(<span class="code__red">year</span>) {
 
-		<span class="code__voilet">if</span> (Number.<span class="code__blue">isInteger</span>(+(<span class="code__red">year</span> / 100))) {
-			<span class="code__voilet">return</span> +(<span class="code__red">year</span> / 100)
+<span class="code__voilet">if</span> (Number.<span class="code__blue">isInteger</span>(+(<span class="code__red">year</span> / 100))) {
+<span class="code__voilet">return</span> +(<span class="code__red">year</span> / 100)
 	
-		} <span class="code__voilet">else if</span> (+(<span class="code__red">year</span> / 100) &gt; +(<span class="code__red">year</span> / 100).<span class="code__blue">toFixed</span>()) {
-			<span class="code__voilet">return</span> +(<span class="code__red">year</span> / 100).<span class="code__blue">toFixed</span>() + 1
+} <span class="code__voilet">else if</span> (+(<span class="code__red">year</span> / 100) &gt; +(<span class="code__red">year</span> / 100)
+.<span class="code__blue">toFixed</span>()) {
+<span class="code__voilet">return</span> +(<span class="code__red">year</span> / 100)
+.<span class="code__blue">toFixed</span>() + 1
 	
-		} <span class="code__voilet">else if</span> (+(<span class="code__red">year</span> / 100) &lt; +(<span class="code__red">year</span> / 100).<span class="code__blue">toFixed</span>()) {
-			<span class="code__voilet">return</span> +(<span class="code__red">year</span> / 100).<span class="code__blue">toFixed</span>()
-		}
-	}
+} <span class="code__voilet">else if</span> (+(<span class="code__red">year</span> / 100) &lt; +(<span class="code__red">year</span> / 100)
+.<span class="code__blue">toFixed</span>()) {
+<span class="code__voilet">return</span> +(<span class="code__red">year</span> / 100)
+.<span class="code__blue">toFixed</span>()
+}
+}
 </code> </pre>
 			</div>
 		</section>
@@ -222,13 +239,47 @@
 		<section class="projects" id="projects">
 			<div class="container">
 				<h3 class="projects__title title">My projects</h3>
-				<ul>
-					<li><a class="projects__link" href="https://github.com/YauhenMurachou/FE07-wk-2-Murachou-Yauhen"
-							target="_blank">Adaptive landing</a></li>
-					<li><a class="projects__link" href="https://github.com/YauhenMurachou/TMS_ToDo_Project/tree/users"
-							target="_blank">Task manager by
-							React/Redux</a></li>
+				<ul class="projects__list">
+					<li class="projects__item">
+						<a href="https://rolling-scopes-school.github.io/yauhenmurachou-JSFEPRESCHOOL/portfolio/"
+							target="_blank">
+							<img src="img/portfolio.png" width="908" height="477" alt="Portfolio screenshot"
+								class="projects__image">
+						</a>
+						<a class="projects__link"
+							href="https://rolling-scopes-school.github.io/yauhenmurachou-JSFEPRESCHOOL/portfolio/"
+							target="_blank">Photographer's portfolio</a>
+					</li>
+
+					<li class="projects__item">
+						<a href="https://yauhenmurachou.github.io/FE07-wk-2-Murachou-Yauhen/" target="_blank">
+							<img src="img/Adaptive_landing.png" width="908" height="477" alt="Adaptive landing screenshot"
+								class="projects__image">
+						</a>
+						<a class="projects__link" href="https://yauhenmurachou.github.io/FE07-wk-2-Murachou-Yauhen/"
+							target="_blank">Adaptive landing with slick slider</a>
+					</li>
+
+					<li class="projects__item">
+						<a href="https://yauhenmurachou.github.io/Murachou_Yauhen-JS_procrastination/" target="_blank">
+							<img src="img/Procrastination.png" width="908" height="477" alt="Procrastination screenshot"
+								class="projects__image">
+						</a>
+						<a class="projects__link" href="https://yauhenmurachou.github.io/Murachou_Yauhen-JS_procrastination/"
+							target="_blank">Time of procrastination. Native JS practice</a>
+					</li>
+
+					<li class="projects__item">
+						<a href="https://github.com/YauhenMurachou/TMS_ToDo_Project/tree/users" target="_blank">
+							<img src="img/ToDo.png" width="908" height="477" alt="Portfolio screenshot"
+								class="projects__image">
+						</a>
+						<a class="projects__link" href="https://github.com/YauhenMurachou/TMS_ToDo_Project/tree/users"
+							target="_blank">Task manager with the ability to edit, delete and add tasks, separation of roles
+							and authorization through web-token. Written by React</a>
+					</li>
 				</ul>
+
 			</div>
 		</section>
 	</main>
@@ -246,13 +297,12 @@
 
 				</ul>
 				<p class="copyright">&copy; 2021 Yauhen Murachou <a href="https://rs.school/" target="_blank">
-					<img class="footer__logo" src="./img/rs_school_js.svg"
-							alt="RSSchool logo">
-				</a></p>
+						<img class="footer__logo" src="./img/rs_school_js.svg" alt="RSSchool logo">
+					</a></p>
 			</div>
 		</div>
 	</footer>
-
+	<script src="index.js"> </script>
 </body>
 
 </html>
