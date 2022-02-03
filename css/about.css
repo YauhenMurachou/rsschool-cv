@@ -1,0 +1,146 @@
+.about {
+	font-family: "Open Sans", "Verdana", "Geneva", "Tahoma", "sans-serif";
+	width: 100%;
+	background: url("../img/WallpaperDog-20386346.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	padding-bottom: 3rem;
+	padding-top: 3rem;
+	font-size: 0.875rem;
+	z-index: 0;
+}
+
+.about::after {
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	background-color: rgba(177, 174, 174, 0.45);
+}
+
+.about__wrapper {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.about__leftrow {
+	max-width: 35.625rem;
+}
+
+.about__title {
+	font-family: "Raleway", "Open Sans", "Verdana", "Geneva", "Tahoma";
+	font-size: 2.5rem;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 2.625rem;
+	letter-spacing: 0;
+	text-align: left;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+.about__title:after {
+	content: "";
+	width: 4rem;
+	bottom: 0;
+	height: 2px;
+	background-color: #ffffff;
+	margin: 2rem auto 2.4375rem 0px;
+	display: block;
+}
+
+.about__subtitle {
+	font-family: "Raleway", "Open Sans", "Verdana", "Geneva", "Tahoma";
+	font-size: 1.25rem;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 1.1875rem;
+	letter-spacing: 0;
+	text-align: left;
+	color: #ffffff;
+	margin-bottom: 2.4375rem;
+}
+
+.about__contact {
+	text-decoration: none;
+	font-size: 0.9375rem;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 2.5rem;
+	letter-spacing: 0;
+	display: block;
+	text-align: center;
+	max-width: 8.4375rem;
+	border: 1px solid #ffffff;
+	cursor: pointer;
+	transition-duration: 0.3s;
+	color: #ffffff;
+}
+
+.about__contact:hover {
+	background-color: #ffffff;
+	border: 1px solid #ffffff;
+	transition-duration: 0.5s;
+	color: #ff0000;
+}
+
+.about__rightrow {
+	max-width: 35.625rem;
+}
+
+.about__avatar {
+	background-color: #ffffff;
+	max-width: 370px;
+	border-radius: 50%;
+	border: 3px solid #ffffff;
+}
+
+@media (max-width: 946px) {
+	.about__wrapper {
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+	}
+	.about__leftrow,
+	.about__title,
+	.about__subtitle {
+		text-align: center;
+	}
+	.about__title:after {
+		margin: 32px auto 39px auto;
+	}
+	.about__link {
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 756px) {
+	.about__contact {
+		margin: 0 auto 20px auto;
+	}
+}
+
+@media (max-width: 576px) {
+	.about__link {
+		max-width: 100%;
+	}
+	.about__avatar {
+		max-width: 100%;
+	}
+	.about__leftrow {
+		padding-top: 3.5rem;
+	}
+	.about__rightrow {
+		padding-top: 3.5rem;
+		width: 100%;
+	}
+	.about {
+		padding-bottom: 3.15rem;
+	}
+}

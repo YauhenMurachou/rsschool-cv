@@ -1,0 +1,44 @@
+.skills{
+	font-family: 'Open Sans', 'Verdana', 'Geneva', 'Tahoma', 'sans-serif';
+	font-size: 0.875rem;
+	background: #ffeded;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+.skills__title{	
+	margin: 0 auto 1rem auto;
+	font-size: 2rem;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 27px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.skills__title::after {
+	background-color: #ff0000;
+	margin: 1rem auto;
+}
+
+.skills__wrapper{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.skills__list{
+	font-size: 1.25rem;
+	color: rgb(107, 103, 103);
+}
+
+.skills__item{
+	margin-bottom: 0.5rem;
+}
+
+@media (max-width: 1025px){
+	.skills__list{
+		width: 100%;
+	}
+}
