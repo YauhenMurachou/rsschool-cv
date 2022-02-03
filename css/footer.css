@@ -64,7 +64,8 @@
 
 .footer__logo {
 	background-color: white;
-max-height: 1.5rem;
+	max-height: 1.5rem;
+	max-width: 61px;
 }
 
 .copyright {
