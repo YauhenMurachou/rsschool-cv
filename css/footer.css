@@ -1,0 +1,86 @@
+.footer {
+	font-family: "Open Sans", Verdana, Geneva, Tahoma, sans-serif;
+	background: #000000;
+	padding-top: 2rem;
+}
+
+.footer__title {
+	margin: 0 auto 1rem auto;
+	font-size: 2rem;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 27px;
+	text-align: center;
+	text-transform: uppercase;
+	color: rgb(255, 255, 255);
+}
+
+.footer__title::after {
+	background-color: rgb(255, 255, 255);
+	margin: 1rem auto;
+}
+
+.footer__list {
+	padding-top: 30px;
+	padding-bottom: 18px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.footer__icons {
+	font-size: 1.4375rem;
+	margin-left: 30px;
+}
+
+.footer__icons:first-child {
+	margin-left: 0px;
+}
+
+.footer__link {
+	display: inline-block;
+	color: rgb(153, 149, 149);
+	transition-duration: 0.2s;
+}
+
+.footer__link:hover {
+	transition-duration: 0.4s;
+	transition-timing-function: ease;
+	transform: scale(1.4);
+}
+
+.footer__linkedin:hover {
+	color: #4267b2;
+	transition-duration: 0.1s;
+	transition-timing-function: ease;
+}
+
+.footer__github:hover {
+	color: #e60023;
+	transition-duration: 0.1s;
+	transition-timing-function: ease;
+}
+
+.footer__logo {
+	background-color: white;
+	max-height: 1.5rem;
+	max-width: 61px;
+}
+
+.copyright {
+	text-align: center;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 16px;
+	color: #ffffff;
+	padding-bottom: 16px;
+	font-size: 12px;
+}
+
+@media (max-width: 370px) {
+	.footer__icons {
+		font-size: 1.25rem;
+		margin-left: 25px;
+	}
+}
