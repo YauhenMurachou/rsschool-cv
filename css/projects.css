@@ -21,6 +21,30 @@
 	margin: 1rem auto 2rem auto;
 }
 
+.projects__subtitle {
+	font-weight: 600;
+	font-size: 1.2rem;
+}
+
+.projects__key {
+	font-style: italic;
+}
+
+.experience__project {
+	padding: 1rem 0;
+	display: flex;
+	align-items: center;
+}
+
+.left__side {
+	max-width: 75%;
+}
+
+.experience__item {
+	display: flex;
+	gap: 1rem;
+}
+
 .projects__list {
 	display: flex;
 	flex-wrap: wrap;
@@ -35,7 +59,7 @@
 }
 
 .projects__image {
-	width: 100%;
+	max-width: 25%;
 	height: max-content;
 	object-fit: contain;
 	box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.1);
